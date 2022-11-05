@@ -20,7 +20,7 @@ const AppComp = () => {
     },
   });
 
-  if (isLoading) return <h1>Loading...</h1>;
+  if (isLoading) return <h1>App Loading...</h1>;
 
   return (
     <div className="mt-10 text-3xl mx-auto max-w-6xl">
